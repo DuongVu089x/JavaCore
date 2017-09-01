@@ -5,7 +5,7 @@ import java.util.Vector;
 
 public class VectorDemo {
     public static void main(String[] args) {
-        // capacity start is 3 and incr is 2
+        // Capacity start is 3 and incr is 2
         Vector<Number> v = new Vector<Number>(3, 2);
         System.out.println("Size ban dau: " + v.size());
         System.out.println("Capacity ban dau: " + v.capacity());
@@ -28,8 +28,9 @@ public class VectorDemo {
         System.out.println("Phan tu dau tien: " + (Integer) v.firstElement());
         System.out.println("Phan tu cuoi cung: " + (Integer) v.lastElement());
         if (v.contains(new Integer(3))) System.out.println("Vector chua 3.");
-        // print element in vector.
-        Enumeration vEnum = v.elements();
+
+        // Print element in vector.
+        Enumeration<Number> vEnum = v.elements();
         System.out.println("\nCac phan tu trong Vector:");
         while (vEnum.hasMoreElements())
             System.out.print(vEnum.nextElement() + " ");
