@@ -29,7 +29,6 @@ public class HashMapDemo {
             System.out.print(me.getKey() + ": ");
             System.out.println(me.getValue());
         }
-
         System.out.println();
         // Update account of Balance
         double balance = ((Double) hm.get("Zara")).doubleValue();
