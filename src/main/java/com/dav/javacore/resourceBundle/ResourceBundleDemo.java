@@ -8,9 +8,9 @@ public class ResourceBundleDemo {
         Locale.setDefault(new Locale("vn","VN"));
 
         //ResourceBundle resourcebundle = ResourceBundle.getBundle("demoResource_en_US");
-        ResourceBundle resourcebundle = ResourceBundle.getBundle("demoResource_vn_VN");
+        ResourceBundle resourcebundle = ResourceBundle.getBundle("demoResource_en_US");
 
-        //print out value of username
+        //Print out value of username
         System.out.println( resourcebundle.getString("username"));
     }
 }
