@@ -1,4 +1,4 @@
-package com.dav.javacore.list;
+package com.dav.javacore.java.util.list;
 
 import java.util.Enumeration;
 import java.util.Vector;

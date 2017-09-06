@@ -1,4 +1,4 @@
-package com.dav.javacore.resourceBundle;
+package com.dav.javacore.java.util.resourceBundle;
 
 import java.util.Locale;
 import java.util.ResourceBundle;

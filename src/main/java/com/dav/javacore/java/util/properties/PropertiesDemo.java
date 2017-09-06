@@ -1,4 +1,4 @@
-package com.dav.javacore.properties;
+package com.dav.javacore.java.util.properties;
 
 import java.util.Iterator;
 import java.util.Properties;

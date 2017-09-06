@@ -1,4 +1,4 @@
-package com.dav.javacore.map;
+package com.dav.javacore.java.util.map;
 
 import java.util.Enumeration;
 import java.util.Hashtable;

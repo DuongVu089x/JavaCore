@@ -1,4 +1,4 @@
-package com.dav.javacore.set;
+package com.dav.javacore.java.util.set;
 
 import java.util.HashSet;
 import java.util.Set;

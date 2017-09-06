@@ -1,4 +1,4 @@
-package com.dav.javacore.date;
+package com.dav.javacore.java.util.date;
 
 import java.util.Date;
 import java.util.concurrent.TimeUnit;

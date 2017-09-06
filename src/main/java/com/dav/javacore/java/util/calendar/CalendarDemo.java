@@ -1,4 +1,4 @@
-package com.dav.javacore.calendar;
+package com.dav.javacore.java.util.calendar;
 
 import java.util.Calendar;
 

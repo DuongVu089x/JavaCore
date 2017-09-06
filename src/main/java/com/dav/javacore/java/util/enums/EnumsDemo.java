@@ -1,4 +1,4 @@
-package com.dav.javacore.enums;
+package com.dav.javacore.java.util.enums;
 
 import java.util.Enumeration;
 import java.util.Vector;

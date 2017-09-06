@@ -1,4 +1,4 @@
-package com.dav.javacore.set;
+package com.dav.javacore.java.util.set;
 
 import java.util.LinkedHashSet;
 import java.util.Set;
