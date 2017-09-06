@@ -10,12 +10,28 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.net.URL;
 
+// TODO: Auto-generated Javadoc
+/**
+ * The Class IODemo.
+ */
 public class IODemo {
+
+    /**
+     * The main method.
+     *
+     * @param args the arguments
+     * @throws IOException Signals that an I/O exception has occurred.
+     */
     public static void main(String[] args) throws IOException {
         readFileOffline();
         readFileOnline();
     }
 
+    /**
+     * Read file online.
+     *
+     * @throws IOException Signals that an I/O exception has occurred.
+     */
     private static void readFileOnline() throws IOException {
         File directory = new File("");
         InputStream isYahoo = null;
@@ -53,6 +69,11 @@ public class IODemo {
 
     }
 
+    /**
+     * Read file offline.
+     *
+     * @throws IOException Signals that an I/O exception has occurred.
+     */
     private static void readFileOffline() throws IOException {
         File directory = new File("");
         File fileHeader = new File(directory.getAbsoluteFile() + "/src/main/resources/header.txt");
