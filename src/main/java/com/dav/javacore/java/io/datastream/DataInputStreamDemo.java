@@ -6,7 +6,18 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
+// TODO: Auto-generated Javadoc
+/**
+ * The Class DataInputStreamDemo.
+ */
 public class DataInputStreamDemo {
+
+    /**
+     * The main method.
+     *
+     * @param args the arguments
+     * @throws IOException Signals that an I/O exception has occurred.
+     */
     public static void main(String[] args) throws IOException {
         int cityIdA = 1;
         String cityNameA = "Green Lake City";
@@ -37,10 +48,8 @@ public class DataInputStreamDemo {
             dos.flush();
 
         } catch (FileNotFoundException e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
         } catch (IOException e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
         } finally {
             if (fos != null) {
